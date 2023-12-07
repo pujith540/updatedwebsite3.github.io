@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Glasses Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .frame {
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Eye Glasses Shop</h1>
+    <!-- Add your best header image here -->
+    <img src="header-image.jpg" alt="Eye Glasses Shop Header Image">
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#frames">Frames</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Video Section -->
+<section id="home">
+    <!-- Add your video here -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<!-- Frames Section -->
+<section id="frames">
+    <h2>Latest Frames Collection</h2>
+    <!-- Add images of frames with prices and text descriptions -->
+    <div class="frame">
+        <img src="frame1.jpg" alt="Frame 1">
+        <h3>Classic Style</h3>
+        <p>High-quality materials. $99.99</p>
+        <button style="color: #fff; background-color: #4CAF50;">Add to Cart</button>
+    </div>
+
+    <div class="frame">
+        <img src="frame2.jpg" alt="Frame 2">
+        <h3>Modern Chic</h3>
+        <p>Sleek design. $129.99</p>
+        <button style="color: #fff; background-color: #4CAF50;">Add to Cart</button>
+    </div>
+
+    <!-- Add more frames as needed -->
+</section>
+
+<!-- About Us Section -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Eye Glasses Shop, your go-to destination for stylish and affordable eyewear. Our mission is to provide high-quality frames that not only enhance your vision but also elevate your style.</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <!-- Add a contact form or your contact information here -->
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" style="color: #fff; background-color: #4CAF50;">Submit</button>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2023 Eye Glasses Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
